@@ -1,0 +1,101 @@
+body {
+    text-align: center;
+    font-family: Verdana, sans-serif;
+    font-size: 10pt;
+}
+
+h1{
+    font-family: Tahoma, Verdana, sans-serif;
+}
+
+.g{
+    color: #185518;
+}
+
+/* h1, h2, h3, h4, form, div, p{
+    padding: 0;
+    margin: 0;
+} */
+
+input[type=text]{
+    margin: 0px auto;
+    min-width: 50px;
+    width: 50%;
+}
+
+form{
+    display: block;
+}
+
+table{
+    border-spacing: 0;
+    /* border: 0; */
+    margin: 0px;
+    width: 100%;
+    padding: 15px;
+  
+}
+
+td, th {
+    border: 1px solid #444;
+    border-bottom-width: 0px;
+    overflow: hidden;
+    padding: 8px;
+    
+}
+
+table.menu td{
+    text-align: left;
+    margin: 0px;
+}
+
+th{
+    font-weight: bold;
+    display: table-cell;
+    vertical-align: inherit;
+    background: #e8ece0;
+}
+
+tr:first-child td, tr:first-child th {
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+tr:last-child td {
+    border-bottom: 1px solid #444;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+
+td.births, p.up {
+    font-size: 8.5pt;
+}
+
+p{
+    margin: 6px 0 0 0;
+}
+
+td.births h3 {
+    font-size: 12.5pt;
+    color: #000;
+}
+
+.m{
+    color: #44b;
+}
+
+.f{
+    color: #b4b;
+}
+
+iframe{
+    border: none;
+    overflow: hidden;
+    width: 960px;
+    height: 170px;
+}
+
+input{
+    border-radius: 0.5rem;
+    
+}
